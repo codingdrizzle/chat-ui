@@ -28,3 +28,13 @@
 .send-btn:hover{
     transform: scale(0.97);
 }
+
+
+.message-card{
+    display: block;
+    box-shadow: 1px 1px 10px #ddd;
+    padding: 10px;
+    margin-bottom: 8px;
+    width: 30%;
+    background-color: #fff;
+}
