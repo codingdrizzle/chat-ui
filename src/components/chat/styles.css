@@ -1,0 +1,42 @@
+.footer-textbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100% !important;
+    box-shadow: -1px 1px 10px #ddd;
+    background: #000038;
+}
+.textbox{
+    width: 90%;
+    border-radius: 15px;
+    height: 40px;
+}
+
+.send-btn, .send-btn:hover, .send-btn:focus{
+    width: 10%;
+    border-radius: 15px;
+    color: #000038;
+    font-weight: 500;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+}
+.send-btn:hover{
+    transform: scale(0.97);
+}
+
+
+.message-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 8px;
+    width: 30%;
+    background-color: #fff;
+}
