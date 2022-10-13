@@ -31,7 +31,8 @@ const Chat = () => {
                 {
                     !chats ? <p>No Chats</p> :
                     chats.map(item => {
-                        return item.sender === getUsername ? <MessageCard style={{ alignSelf: 'flex-start' }} message={item.message} sender={item.sender} /> : <MessageCard style={{ alignSelf: 'flex-end' }} message={item.message} sender={item.sender} />
+                        return item.sender === getUsername ? <MessageCard style={{ alignSelf: 'flex-start' }} message={item.message} sender={item.sender} time={item.timestamp}/> : 
+                        <MessageCard style={{ alignSelf: 'flex-end' }} message={item.message} sender={item.sender} time={item.timestamp}/>
                     })
                 }
             </div>
